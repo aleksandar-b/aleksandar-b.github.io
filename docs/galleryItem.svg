@@ -1,0 +1,37 @@
+<svg style="overflow:hidden;width:100%;height:100%;transform-origin:0;"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <g transform="rotate(45) scale(1.5)">
+        <rect x="75%" y="11.76470588235294%" width="0%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,198,255)" fill="none"></rect>
+        <rect x="75%" y="52.94117647058823%" width="37.5%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,114,255)" fill="rgb(0,114,255)"></rect>
+        <rect x="50%" y="58.8235294117647%" width="25%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,198,255)" fill="none"></rect>
+        <rect x="62.5%" y="82.35294117647058%" width="12.5%" height="5.88235294117647%"
+              translate="0, -5.88235294117647%" stroke="rgb(0,114,255)" fill="rgb(0,114,255)"></rect>
+        <rect x="0%" y="52.94117647058823%" width="12.5%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,198,255)" fill="none"></rect>
+        <rect x="25%" y="41.17647058823529%" width="12.5%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,114,255)" fill="rgb(0,114,255)"></rect>
+        <rect x="25%" y="0%" width="25%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,198,255)" fill="rgb(0,198,255)"></rect>
+        <rect x="50%" y="47.05882352941176%" width="12.5%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,114,255)" fill="rgb(0,114,255)"></rect>
+        <rect x="37.5%" y="82.35294117647058%" width="37.5%" height="5.88235294117647%"
+              translate="0, -5.88235294117647%" stroke="rgb(0,198,255)" fill="rgb(0,198,255)"></rect>
+        <rect x="87.5%" y="82.35294117647058%" width="25%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,114,255)" fill="rgb(0,114,255)"></rect>
+        <rect x="75%" y="17.647058823529413%" width="12.5%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,198,255)" fill="none"></rect>
+        <rect x="0%" y="47.05882352941176%" width="37.5%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,114,255)" fill="rgb(0,114,255)"></rect>
+        <rect x="0%" y="0%" width="25%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,198,255)" fill="rgb(0,198,255)"></rect>
+        <rect x="50%" y="58.8235294117647%" width="37.5%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,114,255)" fill="none"></rect>
+        <rect x="75%" y="52.94117647058823%" width="25%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,198,255)" fill="rgb(0,198,255)"></rect>
+        <rect x="50%" y="52.94117647058823%" width="12.5%" height="5.88235294117647%" translate="0, -5.88235294117647%"
+              stroke="rgb(0,114,255)" fill="rgb(0,114,255)"></rect>
+    </g>
+   </svg>
