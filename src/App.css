@@ -1,5 +1,12 @@
-.App {
-  text-align: center;
+html {
+  height: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.snap {
+  scroll-snap-align: start;
 }
 
 .App-logo {
@@ -20,6 +27,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.min-h-item {
+  min-height: 100px;
+}
+
+.gallery {
+  background-image: url("/gallery.svg");
 }
 
 @keyframes App-logo-spin {

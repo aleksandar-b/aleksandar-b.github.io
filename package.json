@@ -1,7 +1,7 @@
 {
-  "name": "tailwindcss-react-boilerplat",
+  "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "react": "^16.8",
     "react-dom": "^16.8",
