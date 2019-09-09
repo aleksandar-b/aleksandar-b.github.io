@@ -4,6 +4,21 @@ import GalleryListItem from './GalleryListItem';
 
 const sites = [
     {
+        name: "Background Generator",
+        href: "https://material-circles-version.now.sh",
+        src: "https://i.imgur.com/LRBWkGg.jpg"
+    },
+    {
+        name: "Player SoundlCloud",
+        href: "https://aleksandar-b.github.io/ios-soundcloud-graphic/",
+        src: "https://i.imgur.com/a53o396.jpg"
+    },
+    {
+        name: "React Chart",
+        href: "https://aleksandar-b.github.io/react-chart/",
+        src: "https://i.imgur.com/PUFikJ0.png"
+    },
+    {
         name: "Stock Chart",
         href: "https://young-bayou-6286.herokuapp.com/",
         src: "https://i.imgur.com/gjGHpQI.png?1"
@@ -12,6 +27,16 @@ const sites = [
         name: "Thunder Tour JS",
         href: "https://aleksandar-b.github.io/thunderTour.github.io/",
         src: "https://i.imgur.com/ocUWK6S.png?1"
+    },
+    {
+        name: "Gitter Theme Chrome Extension",
+        href: "https://chrome.google.com/webstore/detail/gitter-theme/ifaicponoilpicblgognmpkjmdjplbhl",
+        src: "https://lh3.googleusercontent.com/mwnoZPMEDFuEwHqUf4HNiCBeS5czCEKjzJr8Gth6DXzRewhBnnzpk8jdpeWzdNlHy5fYDH0Vkg=w640-h400-e365"
+    },
+    {
+        name: "New Tab Chrome Extension",
+        href: "https://chrome.google.com/webstore/detail/new-tab/mjipgaojmbpfpkaglbcdkbhcfncichip",
+        src: "https://lh3.googleusercontent.com/F0jtuYlhkvvOUDuUKltk9V5vbVD_QyzbKew-is1MxM22XydEPNNhK_E1USyrHMAOVJ5n_jtaQA=w640-h400-e365"
     },
     {
         name: "Spinning Globe",
@@ -93,6 +118,11 @@ const sites = [
         name: "Random Quote Machine",
         href: "https://codepen.io/samosale/full/VvZwvm",
         src: "https://i.imgur.com/g5Sq89g.png?1"
+    },
+    {
+        name: "Basic Form",
+        href: "https://fcc-survey-form-cdab.glitch.me",
+        src: "https://i.imgur.com/KKHyC4Q.png"
     }
 ];
 
