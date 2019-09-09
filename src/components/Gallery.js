@@ -10,13 +10,13 @@ const sites = [
     },
     {
         name: "Thunder Tour JS",
-        href: "https://samosale.github.io/thunderTour.github.io/",
+        href: "https://aleksandar-b.github.io/thunderTour.github.io/",
         src: "https://i.imgur.com/ocUWK6S.png?1"
     },
     {
         name: "Spinning Globe",
         href: "https://codepen.io/samosale/full/WrmzBr",
-        src: "https://i.imgur.com/vHjW7pl.png?1"
+        src: "https://i.imgur.com/wK4P7EZ.png"
     },
     {
         name: "Occupations in Serbia",
@@ -77,7 +77,7 @@ const sites = [
     {
         name: "Pomodoro clock",
         href: "https://codepen.io/samosale/full/avowWO",
-        src: "https://i.imgur.com/2CVxHUW.png?1"
+        src: "https://i.imgur.com/dXcIqhR.png"
     },
     {
         name: "Weather forecast",
@@ -87,7 +87,7 @@ const sites = [
     {
         name: "Simon Game",
         href: "https://codepen.io/samosale/full/XmgdjK",
-        src: "https://i.imgur.com/dmDsMe4.png"
+        src: "https://i.imgur.com/tSfHr69.png"
     },
     {
         name: "Random Quote Machine",
