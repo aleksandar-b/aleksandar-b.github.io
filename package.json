@@ -4,6 +4,7 @@
   "private": false,
   "homepage": "https://aleksandar-b.github.io/",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "react": "^16.8",
     "react-dom": "^16.8",
     "react-scripts": "2.1.5"
@@ -12,7 +13,7 @@
     "build:css": "postcss tailwindcss/tailwind.src.css -o src/css/tailwind.css",
     "watch:css": "postcss tailwindcss/tailwind.src.css -o src/css/tailwind.css -w",
     "start": "yarn watch:css & react-scripts start",
-    "build": "yarn build:css && react-scripts build && rm -rf docs && mv build docs",
+    "build": "yarn build:css && react-scripts build",
     "test": "react-scripts test",
     "eslint": "eslint src",
     "eject": "react-scripts eject",
