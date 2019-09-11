@@ -3,10 +3,8 @@ import BackgroundGalleryListItem from './BackgroundGalleryListItem.js'
 import {MaterialDivider} from "./ProfileCard";
 
  const GalleryListItem = (item) =>
-    <div className="w-full md:w-1/2 lg:w-1/6 flex flex-col" itemScope=""
-         itemType="https://schema.org/WebSite">
+    <div className="w-1/4 lg:w-1/6 flex flex-col">
         <a href={item.href}
-           style={{backdropFilter: 'blur(20px)'}}
            className="no-underline flex flex-1 flex-col overflow-hidden relative">
             <div className="w-full shadow-inner bg-dark-100 bg-cover bg-top min-h-item transition hover:-scale-sm"
                  style={{

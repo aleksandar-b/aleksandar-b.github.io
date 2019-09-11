@@ -3,7 +3,7 @@
      style="width: 100%; height: 100%; position: absolute; will-change: transform; transform-origin: 0px center;">
     <style></style>
     <rect x="12.5%" y="52.941%" width="37.5%" height="5.882%" stroke="#00C6FF" fill="none"></rect>
-    <rect x="37.5%" y="82.353%" width="37.5%" height="5.882%" stroke="#0072FF" fill="none"></rect>
+    <rect x="37.5%" y="82.353%" width="37.5%" height="5.882%" stroke="#FFD200" fill="#FFD200"></rect>
     <rect x="12.5%" y="29.412%" width="25%" height="5.882%" stroke="#00C6FF" fill="none"></rect>
     <rect x="25%" y="64.706%" width="37.5%" height="5.882%" stroke="#0072FF" fill="none"></rect>
     <rect x="87.5%" y="64.706%" width="0%" height="5.882%" stroke="#00C6FF" fill="#00C6FF"></rect>
@@ -11,7 +11,7 @@
     <rect x="12.5%" y="47.059%" width="0%" height="5.882%" stroke="#00C6FF" fill="none"></rect>
     <rect x="0%" y="52.941%" width="0%" height="5.882%" stroke="#0072FF" fill="none"></rect>
     <rect x="12.5%" y="35.294%" width="37.5%" height="5.882%" stroke="#00C6FF" fill="none"></rect>
-    <rect x="87.5%" y="70.588%" width="37.5%" height="5.882%" stroke="#0072FF" fill="#0072FF"></rect>
+    <rect x="87.5%" y="70.588%" width="37.5%" height="5.882%" stroke="#FFD200" fill="#FFD200"></rect>
     <rect x="50%" y="64.706%" width="0%" height="5.882%" stroke="#00C6FF" fill="none"></rect>
     <rect x="37.5%" y="88.235%" width="0%" height="5.882%" stroke="#0072FF" fill="none"></rect>
     <rect x="12.5%" y="94.118%" width="37.5%" height="5.882%" stroke="#00C6FF" fill="none"></rect>

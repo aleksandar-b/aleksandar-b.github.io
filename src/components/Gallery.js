@@ -127,17 +127,12 @@ const sites = [
 ];
 
 const Gallery = () => (
-    <section className="pb-24 pt-12 md:pt-24 flex justify-center z-10 w-full gallery bg-fixed px-24" style={{ position: 'absolute' }}>
-        <div className="flex flex-col clearfix h-screen w-2/6 ">
-            <div className="flex justify-center">
-                <h3 className="font-bold text-6xl mb-2 text-white uppercase" itemProp="Experiments">Experiments</h3>
-            </div>
+    <section className="flex z-10 w-full gallery bg-fixed px-4">
+        <div className="flex flex-col h-screen w-full text-center">
+            <h3 className="font-bold text-2xl md:text-6xl mb-2 text-white uppercase md:pt-12">Experiments</h3>
             <MaterialDivider/>
-            <div className="flex flex-wrap shadow-lg">
-            {sites.map((site) => (
-                    GalleryListItem(site)
-            )
-            )}
+            <div className="flex flex-wrap mx-auto shadow-lg w-full md:w-2/6 md:mt-6">
+            {sites.map((site) => GalleryListItem(site))}
             </div>
         </div>
     </section>);

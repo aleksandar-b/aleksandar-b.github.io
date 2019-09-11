@@ -18,7 +18,7 @@
     "eslint": "eslint src",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "yarn run predeploy && gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
