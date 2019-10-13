@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Background = props => (
+const ProfileBackground = props => (
     <svg
         style={{
             width: '100%',
@@ -134,4 +134,4 @@ const Background = props => (
     </svg>
 )
 
-export default Background
+export default ProfileBackground
