@@ -1,7 +1,7 @@
 import React from 'react';
 
  const GalleryCard = (item, idx) =>
-    <a className="w-1/4 overflow-hidden" key={idx} href={item.href}>
+    <a className="w-1/4 overflow-hidden" key={idx} href={item.href} target="_blank">
         <div className="shadow-inner bg-dark-100 bg-cover min-h-item transition hover:-scale-sm"
              style={{
                  backgroundImage: `url(${item.src})`,
