@@ -130,9 +130,9 @@ const sites = [
 const Gallery = () => (
     <section className="gallery-bcg bg-fixed h-screen snap flex flex-col items-center">
         <GalleryBackground/>
-        <h3 className="font-bold text-2xl md:text-6xl mb-2 text-white uppercase md:pt-12">Experiments</h3>
+        <h3 style={{display: 'inline', backgroundColor: "#FFD200"}} className="font-bold h-32 text-2xl md:text-6xl mb-2 text-white uppercase md:pt-12 rounded">Experiments</h3>
         <MaterialDivider/>
-        <div className="flex flex-wrap shadow-lg md:mt-6 w-1/2">
+        <div className="flex flex-wrap shadow-2xl md:mt-6 md:w-1/2 w-full rounded overflow-hidden">
             {sites.map((site, idx) => GalleryListItem(site, idx))}
         </div>
     </section>);
