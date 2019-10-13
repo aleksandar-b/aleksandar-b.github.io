@@ -1,6 +1,6 @@
 import React from 'react'
 import {MaterialDivider} from "./ProfileCard";
-import GalleryListItem from './GalleryListItem';
+import GalleryCard from './GalleryCard';
 import GalleryBackground from "./GalleryBackground";
 
 const sites = [
@@ -133,7 +133,7 @@ const Gallery = () => (
         <h3 style={{display: 'inline', backgroundColor: "#FFD200"}} className="font-bold h-32 text-2xl md:text-6xl mb-2 text-white uppercase md:pt-12 rounded">Experiments</h3>
         <MaterialDivider/>
         <div className="flex flex-wrap shadow-2xl md:mt-6 md:w-1/2 w-full rounded overflow-hidden">
-            {sites.map((site, idx) => GalleryListItem(site, idx))}
+            {sites.map((site, idx) => GalleryCard(site, idx))}
         </div>
     </section>);
 
