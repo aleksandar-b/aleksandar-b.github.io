@@ -1,57 +1,58 @@
 import React from 'react'
 import {MaterialDivider} from "./ProfileCard";
 import GalleryListItem from './GalleryListItem';
+import GalleryBackground from "./GalleryBackground";
 
 const sites = [
     {
         name: "Background Generator",
         href: "https://material-circles-version.now.sh",
-        src: "https://i.imgur.com/LRBWkGg.jpg"
+        src: "1.png"
     },
     {
         name: "Player SoundlCloud",
         href: "https://aleksandar-b.github.io/ios-soundcloud-graphic/",
-        src: "https://i.imgur.com/a53o396.jpg"
+        src: "2.jpg"
     },
     {
         name: "React Chart",
         href: "https://aleksandar-b.github.io/react-chart/",
-        src: "https://i.imgur.com/PUFikJ0.png"
+        src: "3.png"
     },
     {
         name: "Stock Chart",
         href: "https://young-bayou-6286.herokuapp.com/",
-        src: "https://i.imgur.com/gjGHpQI.png?1"
+        src: "4.png"
     },
     {
         name: "Thunder Tour JS",
         href: "https://aleksandar-b.github.io/thunderTour.github.io/",
-        src: "https://i.imgur.com/ocUWK6S.png?1"
+        src: "5.png"
     },
     {
         name: "Gitter Theme Chrome Extension",
         href: "https://chrome.google.com/webstore/detail/gitter-theme/ifaicponoilpicblgognmpkjmdjplbhl",
-        src: "https://lh3.googleusercontent.com/mwnoZPMEDFuEwHqUf4HNiCBeS5czCEKjzJr8Gth6DXzRewhBnnzpk8jdpeWzdNlHy5fYDH0Vkg=w640-h400-e365"
+        src: "https://lh3.googleusercontent.com/mwnoZPMEDFuEwHqUf4HNiCBeS5czCEKjzJr8Gth6DXzRewhBnnzpk8jdpeWzdNlHy5fYDH0Vkg=w320-h200-e365"
     },
     {
         name: "New Tab Chrome Extension",
         href: "https://chrome.google.com/webstore/detail/new-tab/mjipgaojmbpfpkaglbcdkbhcfncichip",
-        src: "https://lh3.googleusercontent.com/F0jtuYlhkvvOUDuUKltk9V5vbVD_QyzbKew-is1MxM22XydEPNNhK_E1USyrHMAOVJ5n_jtaQA=w640-h400-e365"
+        src: "https://lh3.googleusercontent.com/F0jtuYlhkvvOUDuUKltk9V5vbVD_QyzbKew-is1MxM22XydEPNNhK_E1USyrHMAOVJ5n_jtaQA=w320-h200-e365"
     },
     {
         name: "Spinning Globe",
         href: "https://codepen.io/samosale/full/WrmzBr",
-        src: "https://i.imgur.com/wK4P7EZ.png"
+        src: "6.png"
     },
     {
         name: "Occupations in Serbia",
         href: "https://codepen.io/samosale/full/YyrLwo/",
-        src: "https://i.imgur.com/FwaOOiW.png?1"
+        src: "8.png"
     },
     {
         name: "TwitchTv",
         href: "https://codepen.io/samosale/full/KdPBeE/",
-        src: "https://i.imgur.com/WMfb9IR.png?1"
+        src: "12.png"
     },
     {
         name: "Sine Wave",
@@ -67,7 +68,7 @@ const sites = [
     {
         name: "Wiki Viewer",
         href: "https://codepen.io/samosale/full/WQrxQv/",
-        src: "https://i.imgur.com/qvjJta7.png?1"
+        src: "10.png"
     },
     {
         name: "FCC News",
@@ -102,7 +103,7 @@ const sites = [
     {
         name: "Pomodoro clock",
         href: "https://codepen.io/samosale/full/avowWO",
-        src: "https://i.imgur.com/dXcIqhR.png"
+        src: "7.png"
     },
     {
         name: "Weather forecast",
@@ -112,7 +113,7 @@ const sites = [
     {
         name: "Simon Game",
         href: "https://codepen.io/samosale/full/XmgdjK",
-        src: "https://i.imgur.com/tSfHr69.png"
+        src: "11.png"
     },
     {
         name: "Random Quote Machine",
@@ -122,18 +123,17 @@ const sites = [
     {
         name: "Basic Form",
         href: "https://fcc-survey-form-cdab.glitch.me",
-        src: "https://i.imgur.com/KKHyC4Q.png"
+        src: "9.png"
     }
 ];
 
 const Gallery = () => (
-    <section className="flex z-10 w-full gallery bg-fixed px-4">
-        <div className="flex flex-col h-screen w-full text-center">
-            <h3 className="font-bold text-2xl md:text-6xl mb-2 text-white uppercase md:pt-12">Experiments</h3>
-            <MaterialDivider/>
-            <div className="flex flex-wrap mx-auto shadow-lg w-full md:w-2/6 md:mt-6">
-            {sites.map((site) => GalleryListItem(site))}
-            </div>
+    <section className="gallery-bcg bg-fixed h-screen snap flex flex-col items-center">
+        <GalleryBackground/>
+        <h3 className="font-bold text-2xl md:text-6xl mb-2 text-white uppercase md:pt-12">Experiments</h3>
+        <MaterialDivider/>
+        <div className="flex flex-wrap shadow-lg md:mt-6 w-1/2">
+            {sites.map((site, idx) => GalleryListItem(site, idx))}
         </div>
     </section>);
 

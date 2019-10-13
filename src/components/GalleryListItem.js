@@ -1,18 +1,17 @@
 import React from 'react';
-import BackgroundGalleryListItem from './BackgroundGalleryListItem.js'
-import {MaterialDivider} from "./ProfileCard";
 
- const GalleryListItem = (item) =>
-    <div className="w-1/4 lg:w-1/6 flex flex-col">
+ const GalleryListItem = (item, idx) =>
+    <div className="w-1/4 overflow-hidden" key={idx}>
+        <div className="shadow-inner bg-dark-100 bg-cover min-h-item transition hover:-scale-sm"
+             style={{
+                 backgroundImage: `url(${item.src})`,
+                 backgroundColor: 'rgba(247,250,250, .15)',
+                 backgroundPosition: 'center'
+             }}>
+        </div>
         <a href={item.href}
-           className="no-underline flex flex-1 flex-col overflow-hidden relative">
-            <div className="w-full shadow-inner bg-dark-100 bg-cover bg-top min-h-item transition hover:-scale-sm"
-                 style={{
-                     backgroundImage: `url(${item.src})`,
-                     backgroundColor: 'rgba(247,250,250, .15)',
-                     backgroundBlendMode: 'overlay'
-                 }}>
-            </div>
+           className="no-underline flex flex-1 flex-col relative">
+
             {/*<div className="flex flex-1 border-l-2 border-blue-400 absolute top-0">*/}
             {/*    <BackgroundGalleryListItem />*/}
             {/*    <div style={{ position: 'absolute'}} className="p-3">*/}

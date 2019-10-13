@@ -1,18 +1,21 @@
 html {
-  height: 100%;
-  overflow-y: scroll;
   scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
 }
 
+body {
+  margin: 0;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+}
+
 .snap {
   scroll-snap-align: start;
+  overflow-x: scroll;
 }
 
 .min-h-item {
-  min-height: 100px;
-}
-
-.gallery {
-  background-image: url("/gallery.svg");
+  min-height: 150px;
 }
