@@ -25,6 +25,9 @@ const ProfileCard = () =>
                         <a href="https://twitter.com/aleksandar874" alt="twitter" className="no-underline mr-2" target="_blank">
                             <img height="18" width="18" src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" />
                         </a>
+                        <a href="https://codepen.io/idx" alt="twitter" className="no-underline mr-2" target="_blank">
+                            <img height="18" width="18" src="https://unpkg.com/simple-icons@latest/icons/codepen.svg" />
+                        </a>
                     </div>
 
                     <h1 className="text-4xl tracking-wide font-bold"><span className="font-light">I'm</span> <span>Alex</span> </h1>
