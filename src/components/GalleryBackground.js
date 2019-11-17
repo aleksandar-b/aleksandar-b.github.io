@@ -20,15 +20,25 @@ const GalleryBackground = props => (
                 y="82.353%"
                 width="37.5%"
                 height="5.882%"
-                stroke="#FFD200"
+                stroke="none"
                 fill="#FFD200"
             />
+
+            <rect
+                x="25.5%"
+                y="30.353%"
+                width="87.5%"
+                height="5.882%"
+                stroke="none"
+                fill="#38434c"
+            />
+
             <rect
                 x="87.5%"
                 y="64.706%"
                 width="0%"
                 height="5.882%"
-                stroke="#FFD200"
+                stroke="none"
                 fill="#00C6FF"
             />
 
@@ -37,7 +47,7 @@ const GalleryBackground = props => (
                 y="70.588%"
                 width="37.5%"
                 height="5.882%"
-                stroke="#FFD200"
+                stroke="none"
                 fill="#FFD200"
             />
             <rect
@@ -45,7 +55,7 @@ const GalleryBackground = props => (
                 y="5.882%"
                 width="47.5%"
                 height="5.882%"
-                stroke="#FFD200"
+                stroke="none"
                 fill="#FFD200"
             />
 
@@ -54,8 +64,8 @@ const GalleryBackground = props => (
                 y="120.588%"
                 width="37.5%"
                 height="5.882%"
-                stroke="#FFD200"
-                fill="#000"
+                stroke="none"
+                fill="#38434c"
             />
 
             <rect
@@ -63,8 +73,8 @@ const GalleryBackground = props => (
                 y="45.882%"
                 width="47.5%"
                 height="5.882%"
-                stroke="#FFD200"
-                fill="#000"
+                stroke="none"
+                fill="#38434c"
             />
 
             <rect
@@ -72,7 +82,7 @@ const GalleryBackground = props => (
                 y="95%"
                 width="57.5%"
                 height="5.882%"
-                stroke="#FFD200"
+                stroke="none"
                 fill="#FFD200"
             />
 

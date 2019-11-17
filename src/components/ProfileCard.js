@@ -19,21 +19,21 @@ const ProfileCard = () =>
                 </div>
                 <div className="p-2 flex flex-col items-center">
                     <div className="flex justify-center items-center pb-2">
-                        <a href="https://github.com/aleksandar-b" alt="github" className="no-underline mr-2" target="_blank">
-                            <img height="18" width="18" src="https://unpkg.com/simple-icons@latest/icons/github.svg" />
+                        <a href="https://github.com/aleksandar-b" className="no-underline mr-2" target="_blank">
+                            <img alt="github" height="18" width="18" src="github.svg" />
                         </a>
-                        <a href="https://twitter.com/aleksandar874" alt="twitter" className="no-underline mr-2" target="_blank">
-                            <img height="18" width="18" src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" />
+                        <a href="https://twitter.com/aleksandar874" className="no-underline mr-2" target="_blank">
+                            <img alt="twitter" height="18" width="18" src="/twitter.svg" />
                         </a>
-                        <a href="https://codepen.io/idx" alt="twitter" className="no-underline mr-2" target="_blank">
-                            <img height="18" width="18" src="https://unpkg.com/simple-icons@latest/icons/codepen.svg" />
+                        <a href="https://codepen.io/idx" className="no-underline mr-2" target="_blank">
+                            <img alt="codepen" height="18" width="18" src="codepen.svg" />
                         </a>
                     </div>
 
-                    <h1 className="text-4xl tracking-wide font-bold"><span className="font-light">I'm</span> <span>Alex</span> </h1>
-                    <p className="text-lg font-bold">Web developer in Belgrade</p>
+                    <h1 className="text-3xl tracking-wide leading-relaxed px-4 "><span className="font-hairline text-gray-800">I'm</span> <span className="font-hairline">Alex</span> </h1>
+                    <p className="text-lg font-hairline">Web developer in Belgrade</p>
                     <p className="text-sm py-4">
-                        <a href="#" alt="buy" className="no-underline mr-2 cursor-text">
+                        <a href="#" className="no-underline mr-2 cursor-text font-hairline">
                             <span role="image" aria-labelledby="Coffee">☕️</span>
                             Full Stack Developer
                         </a>

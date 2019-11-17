@@ -5,7 +5,7 @@ import ScrollDownIcon from "./ScrollDownIcon";
 
 function Profile() {
     return <>
-        <section className="h-screen text-white flex flex-col justify-center items-center h-screen snap">
+        <section className="section">
             <ProfileBackground animate={true} />
             <ProfileCard />
             <ScrollDownIcon />

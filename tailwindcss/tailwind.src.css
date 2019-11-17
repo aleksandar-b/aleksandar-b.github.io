@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
+
+.snap {
+    scroll-snap-align: start;
+    overflow-x: scroll;
+}
+
+.section {
+    @apply h-screen text-white flex flex-col justify-center items-center snap;
+}
+
 @tailwind utilities;
+

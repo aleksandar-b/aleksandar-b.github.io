@@ -1,19 +1,16 @@
 html {
   scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
 }
 
 body {
+  box-sizing: border-box;
   margin: 0;
   height: 100%;
   scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
-}
-
-.snap {
-  scroll-snap-align: start;
-  overflow-x: scroll;
 }
 
 .min-h-item {

@@ -58,7 +58,7 @@ const sites = [
         name: "Sine Wave",
         href: "https://codepen.io/samosale/full/Rrjdwd",
         src:
-            "https://45.media.tumblr.com/1789b63316899d072a23db31f6aec0c4/tumblr_mi301zN7vJ1s5nl47o1_500.gif"
+            "14.gif"
     },
     {
         name: "Animated chart",
@@ -128,9 +128,11 @@ const sites = [
 ];
 
 const Gallery = () => (
-    <section className="gallery-bcg bg-fixed h-screen snap flex flex-col items-center">
+    <section className="section">
         <GalleryBackground/>
-        <h3 style={{display: 'inline', backgroundColor: "#FFD200"}} className="font-bold h-32 text-2xl md:text-6xl mb-2 text-white uppercase md:pt-12 rounded">Experiments</h3>
+        <h3 style={{display: 'inline', background: "#FFD200", backgroundClip: 'text',
+            webkitBackgroundClip: 'text',
+            textFillColor: 'transparent', webkitTextFillColor: 'transparent' }} className="font-bold h-32 text-2xl leading-loose px-10 md:text-6xl mb-2 uppercase rounded">Experiments</h3>
         <MaterialDivider/>
         <div className="flex flex-wrap shadow-2xl md:mt-6 md:w-1/2 w-full rounded overflow-hidden">
             {sites.map((site, idx) => GalleryCard(site, idx))}
