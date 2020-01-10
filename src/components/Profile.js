@@ -6,7 +6,7 @@ import ScrollDownIcon from "./ScrollDownIcon";
 function Profile() {
     return <>
         <section className="section">
-            <ProfileBackground animate={true} />
+            <ProfileBackground animate={true}/>
             <ProfileCard />
             <ScrollDownIcon />
         </section>

@@ -1,141 +1,18 @@
 import React from 'react'
-import {MaterialDivider} from "./ProfileCard";
 import GalleryCard from './GalleryCard';
 import GalleryBackground from "./GalleryBackground";
 
-const sites = [
-    {
-        name: "Background Generator",
-        href: "https://material-circles-version.now.sh",
-        src: "1.png"
-    },
-    {
-        name: "Player SoundlCloud",
-        href: "https://aleksandar-b.github.io/ios-soundcloud-graphic/",
-        src: "2.jpg"
-    },
-    {
-        name: "React Chart",
-        href: "https://aleksandar-b.github.io/react-chart/",
-        src: "3.png"
-    },
-    {
-        name: "Stock Chart",
-        href: "https://young-bayou-6286.herokuapp.com/",
-        src: "4.png"
-    },
-    {
-        name: "Thunder Tour JS",
-        href: "https://aleksandar-b.github.io/thunderTour.github.io/",
-        src: "5.png"
-    },
-    {
-        name: "Gitter Theme Chrome Extension",
-        href: "https://chrome.google.com/webstore/detail/gitter-theme/ifaicponoilpicblgognmpkjmdjplbhl",
-        src: "https://lh3.googleusercontent.com/mwnoZPMEDFuEwHqUf4HNiCBeS5czCEKjzJr8Gth6DXzRewhBnnzpk8jdpeWzdNlHy5fYDH0Vkg=w320-h200-e365"
-    },
-    {
-        name: "New Tab Chrome Extension",
-        href: "https://chrome.google.com/webstore/detail/new-tab/mjipgaojmbpfpkaglbcdkbhcfncichip",
-        src: "https://lh3.googleusercontent.com/F0jtuYlhkvvOUDuUKltk9V5vbVD_QyzbKew-is1MxM22XydEPNNhK_E1USyrHMAOVJ5n_jtaQA=w320-h200-e365"
-    },
-    {
-        name: "Spinning Globe",
-        href: "https://codepen.io/samosale/full/WrmzBr",
-        src: "6.png"
-    },
-    {
-        name: "Occupations in Serbia",
-        href: "https://codepen.io/samosale/full/YyrLwo/",
-        src: "8.png"
-    },
-    {
-        name: "TwitchTv",
-        href: "https://codepen.io/samosale/full/KdPBeE/",
-        src: "12.png"
-    },
-    {
-        name: "Sine Wave",
-        href: "https://codepen.io/samosale/full/Rrjdwd",
-        src:
-            "14.gif"
-    },
-    {
-        name: "Animated chart",
-        href: "https://codepen.io/samosale/full/ZQZvzL",
-        src: "https://i.imgur.com/M8W8Bxl.png?1"
-    },
-    {
-        name: "Wiki Viewer",
-        href: "https://codepen.io/samosale/full/WQrxQv/",
-        src: "10.png"
-    },
-    {
-        name: "FCC News",
-        href: "https://codepen.io/samosale/full/rOOPgy",
-        src: "https://i.imgur.com/u3n3kkq.png"
-    },
-    {
-        name: "Calculator",
-        href: "http://zanimanja.tk/",
-        src: "https://i.imgur.com/E7mk5Uq.png?1"
-    },
-    {
-        name: "Chart in motion",
-        href: "https://codepen.io/samosale/full/RrxQQy",
-        src: "https://i.imgur.com/KV8L4jw.png?1"
-    },
-    {
-        name: "Tic Tac Toe Game",
-        href: "https://codepen.io/samosale/full/garjWZ",
-        src: "https://i.imgur.com/Ne8CqS4.png?1"
-    },
-    {
-        name: "Real Time Chart",
-        href: "https://codepen.io/samosale/full/wKZVJx",
-        src: "https://i.imgur.com/4Kc7vbV.png?1"
-    },
-    {
-        name: "SVG animation",
-        href: "https://codepen.io/samosale/full/KVBzXX",
-        src: "https://i.imgur.com/UfsOUP0.png?1"
-    },
-    {
-        name: "Pomodoro clock",
-        href: "https://codepen.io/samosale/full/avowWO",
-        src: "7.png"
-    },
-    {
-        name: "Weather forecast",
-        href: "https://codepen.io/samosale/full/KdPMMr",
-        src: "https://i.imgur.com/Y1Nvk4r.png?1"
-    },
-    {
-        name: "Simon Game",
-        href: "https://codepen.io/samosale/full/XmgdjK",
-        src: "11.png"
-    },
-    {
-        name: "Random Quote Machine",
-        href: "https://codepen.io/samosale/full/VvZwvm",
-        src: "https://i.imgur.com/g5Sq89g.png?1"
-    },
-    {
-        name: "Basic Form",
-        href: "https://fcc-survey-form-cdab.glitch.me",
-        src: "9.png"
-    }
-];
-
 const Gallery = () => (
-    <section className="section">
+    <section id="gallery" className="section relative">
         <GalleryBackground/>
-        <h3 style={{display: 'inline', background: "#FFD200", backgroundClip: 'text',
-            webkitBackgroundClip: 'text',
-            textFillColor: 'transparent', webkitTextFillColor: 'transparent' }} className="font-bold h-32 text-2xl leading-loose px-10 md:text-6xl mb-2 uppercase rounded">Experiments</h3>
-        <MaterialDivider/>
-        <div className="flex flex-wrap shadow-2xl md:mt-6 md:w-1/2 w-full rounded overflow-hidden">
-            {sites.map((site, idx) => GalleryCard(site, idx))}
+        <h3 className="leading-loose px-3 md:mt-48 mt-10 text-blue-600 bg-blue-100 md:text-sm mb-4 uppercase rounded-full tracking-widest">Personal Projects</h3>
+        <GalleryCard />
+        <div className="mt-12 text-center flex flex-grow flex-col justify-end">
+            <p className="text-gray-800 text-sm font-light">Contact Me</p>
+            <div className="flex flex-row m-3">
+                <div className="flex flex-row mr-2 text-xs text-gray-500 align-baseline font-light"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path className="fill-current" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><span className="text-gray-800 ml-1">+381694410428</span></div>
+                <div className="flex flex-row ml-2 text-xs text-gray-500 align-baseline font-light"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path className="fill-current" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/><path d="M0 0h24v24H0z" fill="none"/></svg><span className="text-gray-800 ml-1">aspireledd@gmail.com</span></div>
+            </div>
         </div>
     </section>);
 

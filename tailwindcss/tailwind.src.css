@@ -7,7 +7,7 @@
 }
 
 .section {
-    @apply h-screen text-white flex flex-col justify-center items-center snap;
+    @apply h-screen my-0 py-0 text-white flex flex-col justify-center items-center snap;
 }
 
 @tailwind utilities;

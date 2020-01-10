@@ -1,18 +1,30 @@
-html {
-  scroll-snap-type: y mandatory;
-  -webkit-overflow-scrolling: touch;
+* {
   box-sizing: border-box;
 }
 
-body {
-  box-sizing: border-box;
-  margin: 0;
-  height: 100%;
+#app {
   scroll-snap-type: y mandatory;
-  -webkit-overflow-scrolling: touch;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
   overflow-y: scroll;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
 }
 
 .min-h-item {
   min-height: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .min-h-item {
+    min-height: 100px;
+  }
+}
+
+
+rect {
+  opacity: .85;
 }

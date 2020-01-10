@@ -4,14 +4,12 @@ import "../App.css"
 import Profile from "./Profile"
 import Gallery from "./Gallery";
 
-
-
 function App() {
   return (
-      <>
+      <div id="app">
           <Profile/>
           <Gallery/>
-      </>
+      </div>
   )
 }
 
