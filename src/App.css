@@ -2,7 +2,17 @@
   box-sizing: border-box;
 }
 
-#app {
+html{
+  overscroll-behavior: none;
+  overflow: hidden;
+}
+
+body{
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+#root {
   scroll-snap-type: y mandatory;
   position: absolute;
   top: 0;

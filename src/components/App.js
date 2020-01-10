@@ -6,10 +6,10 @@ import Gallery from "./Gallery";
 
 function App() {
   return (
-      <div id="app">
+      <>
           <Profile/>
           <Gallery/>
-      </div>
+      </>
   )
 }
 

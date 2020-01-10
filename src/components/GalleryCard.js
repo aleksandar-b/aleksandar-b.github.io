@@ -93,7 +93,7 @@ const GalleryCard = () => {
 function Card (item, idx) {
     const [isHover, setHover] = React.useState(false);
 
-    return <a className="block w-1/4 overflow-hidden relative min-h-item flex justify-center items-center"
+    return <a className="block w-1/4 overflow-hidden relative min-h-item flex justify-center items-center p-2"
               onMouseEnter={setHover}
               onMouseLeave={setHover.bind(this, false)}
               key={idx} href={item.href} target="_blank">
