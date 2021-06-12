@@ -43,3 +43,10 @@ body{
 rect {
   opacity: .85;
 }
+
+.highlight {
+  background: url(/brush-6.svg);
+  background-repeat: no-repeat;
+  background-size: 101% 100%;
+  padding: 8px 58px;
+}

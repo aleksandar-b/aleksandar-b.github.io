@@ -11,15 +11,13 @@ const ProfileCard = () => (
         &#xac;
       </span>
     </h1>
-    <p className="text-lg font-hairline tracking-wide">
-      <span>Web</span>
-      <span className="mx-1 font-bold opacity-25">&#183;</span>
-      <span>developer</span>
+    <div className="text-lg font-hairline tracking-wide highlight">
+      <span className="">Software Engineer</span>
       <span className="mx-1 font-bold opacity-25">&#183;</span>
       <span>in</span>
       <span className="mx-1 font-bold opacity-25">&#183;</span>
       <span>Belgrade</span>
-    </p>
+    </div>
     <div className="py-4">
       <Divider />
     </div>
