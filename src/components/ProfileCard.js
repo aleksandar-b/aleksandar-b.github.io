@@ -3,10 +3,10 @@ import Divider from "./Divider"
 
 const ProfileCard = () => (
   <div className="z-10 flex flex-col items-center justify-center w-full h-full">
-    <h1 className="text-3xl tracking-widest leading-relaxed px-4">
+    <h1 className="text-3xl font-hairline leading-relaxed px-4 proxima-font">
       <span className="font-hairline text-gray-800">I'm</span>
-      <span className="mx-1 opacity-25 font-medium">&#183;</span>
-      <span className="font-hairline tracking-widest">Alex</span>
+      <span className="opacity-25 font-medium">&#183;</span>
+      <span className="font-hairline">Alex</span>
       <span className="font-medium inline-block text-2xl opacity-25 transform -translate-y-1 ml-1">
         &#xac;
       </span>

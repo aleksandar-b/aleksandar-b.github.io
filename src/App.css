@@ -5,6 +5,7 @@
 html{
   overscroll-behavior: none;
   overflow: hidden;
+
 }
 
 body{
@@ -22,6 +23,10 @@ body{
   overflow-y: scroll;
   overscroll-behavior: none;
   scroll-behavior: smooth;
+}
+
+.proxima-font {
+  font-family: 'Roboto Mono', monospace;
 }
 
 .min-h-item {
