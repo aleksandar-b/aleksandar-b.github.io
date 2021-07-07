@@ -50,3 +50,9 @@ rect {
   background-size: 101% 100%;
   padding: 8px 58px;
 }
+
+#overlay-brush {
+  transform: translateX(100%);
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in;
+}

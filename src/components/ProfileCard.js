@@ -1,18 +1,21 @@
 import React from "react"
 import Divider from "./Divider"
+import {Brush} from "./brush/Brush";
 
 const ProfileCard = () => (
   <div className="z-10 flex flex-col items-center justify-center w-full h-full">
-    <h1 className="text-3xl font-hairline leading-relaxed px-4 proxima-font">
-      <span className="font-hairline text-gray-800">I'm</span>
-      <span className="opacity-25 font-medium">&#183;</span>
-      <span className="font-hairline">Alex</span>
-      <span className="font-medium inline-block text-2xl opacity-25 transform -translate-y-1 ml-1">
+      <h1 className="text-3xl font-hairline leading-relaxed px-4 proxima-font">
+          <span className="font-hairline text-gray-800">I'm</span>
+          <span className="opacity-25 font-medium">&#183;</span>
+          <span className="font-hairline">Alex</span>
+          <span className="font-medium inline-block text-2xl opacity-25 transform -translate-y-1 ml-1">
         &#xac;
       </span>
     </h1>
     <div className="text-lg font-hairline tracking-wide highlight">
-      <span className="">Software Engineer</span>
+      <span className="">Software</span>
+      <span className="mx-1 font-bold opacity-25">&#183;</span>
+      <span className="">Engineer</span>
       <span className="mx-1 font-bold opacity-25">&#183;</span>
       <span>in</span>
       <span className="mx-1 font-bold opacity-25">&#183;</span>

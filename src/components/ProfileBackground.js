@@ -1,6 +1,4 @@
-import React, {useEffect} from 'react';
-import studiousDoodle from 'studios-doodle'
-
+import React from 'react';
 
 const ProfileBackground = props => {
     return (

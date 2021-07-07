@@ -84,7 +84,7 @@ const sites = [
 ];
 
 const GalleryCard = () => {
-    return <div className="flex flex-wrap md:w-1/2 w-5/6 rounded overflow-hidden shadow-2xl">
+    return <div className="flex flex-wrap md:w-1/2 w-5/6 rounded overflow-auto shadow-2xl">
         {sites.map((item, idx) =>
             Card(item, idx))}
     </div>
