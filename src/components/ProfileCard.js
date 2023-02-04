@@ -7,7 +7,7 @@ const ProfileCard = () => (
       <h1 className="text-3xl font-hairline leading-relaxed px-4 proxima-font">
           <span className="font-hairline text-gray-800">I'm</span>
           <span className="opacity-25 font-medium">&#183;</span>
-          <span className="font-hairline">Alex</span>
+          <span className="font-hairline text-gray-900">Alex</span>
           <span className="font-medium inline-block text-2xl opacity-25 transform -translate-y-1 ml-1">
         &#xac;
       </span>
@@ -17,9 +17,7 @@ const ProfileCard = () => (
       <span className="mx-1 font-bold opacity-25">&#183;</span>
       <span className="">Engineer</span>
       <span className="mx-1 font-bold opacity-25">&#183;</span>
-      <span>in</span>
-      <span className="mx-1 font-bold opacity-25">&#183;</span>
-      <span>Belgrade</span>
+     
     </div>
     <div className="py-4">
       <Divider />
@@ -29,7 +27,7 @@ const ProfileCard = () => (
         href="#"
         className="no-underline mr-2 cursor-text tracking-wide font-hairline text-gray-900"
       >
-        FullStack Developer with over 5 years of experience building web apps
+        FullStack Developer with over 7 years of experience building web apps
         using React, Node, Golang.
       </a>
     </p>

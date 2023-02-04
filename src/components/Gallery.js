@@ -6,7 +6,7 @@ const Gallery = () => (
     <section id="gallery" className="relative section">
         <GalleryBackground/>
         
-        <h3 className="px-3 mt-10 mb-8 leading-loose tracking-widest text-blue-600 uppercase bg-blue-100 rounded-full md:mt-32 md:text-sm">Personal Projects</h3>
+        <h3 className="px-3 mt-10 mb-8 leading-loose tracking-widest text-blue-200 uppercase bg-blue-100 rounded-full md:mt-32 md:text-sm highlight">Personal Projects</h3>
         <GalleryCard />
         <div className="flex flex-col justify-end flex-grow mt-12 text-center">
             <a target="_blank" href="https://calendly.com/aspireledd/30min" className="text-sm font-light bg-gray-800 hover:bg-gray-700 font-bold py-2 px-4 border border-gray-700 rounded">Schedule a meeting</a>
