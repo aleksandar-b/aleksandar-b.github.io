@@ -27,7 +27,7 @@ const ProfileCard = () => (
         href="#"
         className="no-underline mr-2 cursor-text tracking-wide font-hairline text-gray-900"
       >
-        FullStack Developer with over 7 years of experience building web apps
+        FullStack Developer with over 10 years of experience building web apps
         using React, Node, Golang.
       </a>
     </p>
